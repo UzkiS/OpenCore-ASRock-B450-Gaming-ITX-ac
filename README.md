@@ -1,7 +1,7 @@
 # OpenCore-ASRock-B450-Gaming-ITX-ac
 OpenCore for ASRock B450 Gaming-ITX/ac
 
-# OC information
+## OC information
 * OC Version: 0.5.9
 
 ## Test platform
