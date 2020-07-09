@@ -8,19 +8,23 @@ OpenCore for ASRock B450 Gaming-ITX/ac
 * ASRock B450 Gaming-ITX/ac
 * AMD Ryzen R5 3600
 * CUSO DDR4 2666 16G * 2
-* XFX RX470
+* XFX RX470(Using rx570 BIOS to avoid VBIOS abnormal display)
 
 ## Working
 * WIFI (*Modify `EFI/OC/Kexts/itlwm.kext/Contents/Info.plist` to set your WiFi SSID and password.*)
 * Bluetooth
+* Sidecar(Wired, unstable)
 
 ## Known issues
 No Mic on AMD:
 * This is a common issue with when running AppleALC with AMD, specifically no patches have been made to support Mic input. At the moment the "best" solution is to either buy a USB DAC/Mic or go the VoodooHDA.kext method. Problem with VoodooHDA is that it's been known to be unstable and have worse audio quality than AppleALC
 
 ## Before installation
+### Edit config.plist
+Using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS information and write config.plist
+
 ### BIOS Settings
-### Disable
+#### Disable
 
 * Fast Boot
 * Secure Boot
@@ -36,4 +40,5 @@ No Mic on AMD:
 
 ## Credits
 [zxystd/itlwm](https://github.com/zxystd/itlwm)
+
 [zxystd/IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware)

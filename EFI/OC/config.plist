@@ -1459,7 +1459,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -1577,7 +1578,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 npci=0x2000</string>
+				<string>keepsyms=1 debug=0x100 npci=0x2000 shiki-id=Mac-7BA5B2D9E42DDD94 shikigva=40</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1642,17 +1643,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C020423004NJG361M</string>
+			<string></string>
 			<key>ROM</key>
 			<data>qKFZKUfa</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMacPro1,1</string>
+			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DKFZPHX87</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>B4723EAE-49F0-45EF-A958-66100B24A15D</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
